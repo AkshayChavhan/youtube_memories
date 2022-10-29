@@ -3,7 +3,11 @@ import cors from "cors";
 import bodyParser from "body-parser";
 import mongoose from "mongoose";
 
+import postRoutes from './routes/posts.js';
+
 const app = express();
+
+app.use('/posts',postRoutes);
 
 app.use(bodyParser.json({ limit :'30mb' ,extended : true}));
 app.use(bodyParser.urlencoded({ limit :'30mb' ,extended : true}));
@@ -15,7 +19,8 @@ const CONNECTION_URL = 'mongodb+srv://akshaychavhan:akshaychavhan123@cluster0.rj
 
 const PORT = process.env.PORT || 5000 ;
 
-mongoose.connect(CONNECTION_URL,{ useNewUrlParser : true , useUnifiedTypology : true})
+// mongoose.connect(CONNECTION_URL,{ useNewUrlParser : true , useUnifiedTypology : true})
+mongoose.connect(CONNECTION_URL,{ useNewUrlParser : true })
 .then(()=> app.listen(PORT,()=> console.log(`Server runnning on PORT number ${PORT}`)))
 .catch((error)=> console.log(error.message));
 
