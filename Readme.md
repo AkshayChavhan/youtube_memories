@@ -40,3 +40,8 @@ axios   ->for api request
 moment  -> library for time and date
 react-file-base64  -> to convert images
 redux-thunk         -> for asynchronous actions in redux
+
+
+8 ] 
+Deleting all 'src' folder from client and created new 
+'index.js' ,'App.js' file
