@@ -13,3 +13,21 @@ Initializing react environment by command
 create start point file named as 'index.js'
 (in terminal) go to 'Server' and command 'npm init -y' 
 
+4 ] 
+Adding react server dependancies
+npm install body-parser cors express mongoose nodemon
+body-parser   > to send post request
+cors          > enable cross origin request
+express       > to create routing in app
+mongoose      > to create models for posts
+nodemon       > to automatically run the server everytime as changes code
+
+5 ]
+"type": "module" in package.json is use to create modern syntax 
+like 
+import express from 'express' 
+instead of
+const express= require('express')
+
+6 ]
+added start scripts
