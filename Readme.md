@@ -54,3 +54,7 @@ Deleting all 'src' folder from client and created new
 
 10 ]
     Creating Routes
+
+11 ]
+    Scaling routes
+    Seperating routes handler from router and add into controllers
