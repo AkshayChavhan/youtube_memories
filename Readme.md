@@ -58,7 +58,3 @@ Deleting all 'src' folder from client and created new
 11 ]
     Scaling routes
     Seperating routes handler from router and add into controllers
-
-12 ]
-    creating mongoose model 
-    https://www.restapitutorial.com/httpstatuscodes.html
