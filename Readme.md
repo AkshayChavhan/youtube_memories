@@ -45,3 +45,11 @@ redux-thunk         -> for asynchronous actions in redux
 8 ] 
 Deleting all 'src' folder from client and created new 
 'index.js' ,'App.js' file
+
+9 ]
+    Creating mongodb cloud free database from
+    https://www.mongodb.com/cloud/atlas/register
+
+    and connecting with mongoose
+
+10 ]
