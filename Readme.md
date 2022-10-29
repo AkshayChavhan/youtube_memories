@@ -31,3 +31,17 @@ const express= require('express')
 
 6 ]
 added start scripts
+
+
+7 ]
+Adding client dependancies
+npm install axios moment react-file-base64 redux redux-thunk
+axios   ->for api request
+moment  -> library for time and date
+react-file-base64  -> to convert images
+redux-thunk         -> for asynchronous actions in redux
+
+
+8 ] 
+Deleting all 'src' folder from client and created new 
+'index.js' ,'App.js' file
