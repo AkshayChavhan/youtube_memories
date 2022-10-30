@@ -35,7 +35,7 @@ added start scripts
 
 7 ]
 Adding client dependancies
-npm install axios moment react-file-base64 redux redux-thunk @mui/material
+npm install axios moment react-file-base64 redux redux-thunk @mui/material @material-ui/core
 axios   ->for api request
 moment  -> library for time and date
 react-file-base64  -> to convert images
@@ -66,3 +66,5 @@ Deleting all 'src' folder from client and created new
 13 ]
     Creating React Components for clients
     
+14 ]
+    Creating React Styles for Components
