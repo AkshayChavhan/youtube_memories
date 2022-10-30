@@ -35,7 +35,7 @@ added start scripts
 
 7 ]
 Adding client dependancies
-npm install axios moment react-file-base64 redux redux-thunk
+npm install axios moment react-file-base64 redux redux-thunk @mui/material
 axios   ->for api request
 moment  -> library for time and date
 react-file-base64  -> to convert images
@@ -62,3 +62,7 @@ Deleting all 'src' folder from client and created new
 12 ]
     creating mongoose model 
     https://www.restapitutorial.com/httpstatuscodes.html
+
+13 ]
+    Creating React Components for clients
+    
