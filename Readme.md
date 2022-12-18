@@ -35,7 +35,7 @@ added start scripts
 
 7 ]
 Adding client dependancies
-npm install axios moment react-file-base64 redux redux-thunk
+npm install axios moment react-file-base64 redux redux-thunk @mui/material @material-ui/core
 axios   ->for api request
 moment  -> library for time and date
 react-file-base64  -> to convert images
@@ -45,3 +45,26 @@ redux-thunk         -> for asynchronous actions in redux
 8 ] 
 Deleting all 'src' folder from client and created new 
 'index.js' ,'App.js' file
+
+9 ]
+    Creating mongodb cloud free database from
+    https://www.mongodb.com/cloud/atlas/register
+
+    and connecting with mongoose
+
+10 ]
+    Creating Routes
+
+11 ]
+    Scaling routes
+    Seperating routes handler from router and add into controllers
+
+12 ]
+    creating mongoose model 
+    https://www.restapitutorial.com/httpstatuscodes.html
+
+13 ]
+    Creating React Components for clients
+    
+14 ]
+    Creating React Styles for Components
